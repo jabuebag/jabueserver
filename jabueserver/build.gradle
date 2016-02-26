@@ -51,6 +51,7 @@ dependencyManagement {
 }
 
 dependencies {
+    // default setups of grails apps
     compile "org.springframework.boot:spring-boot-starter-logging"
     compile "org.springframework.boot:spring-boot-starter-actuator"
     compile "org.springframework.boot:spring-boot-autoconfigure"
@@ -68,10 +69,12 @@ dependencies {
     testCompile "org.grails:grails-plugin-testing"
     testCompile "org.grails.plugins:geb"
 
-    // Note: It is recommended to update to a more robust driver (Chrome, Firefox etc.)
     testRuntime 'org.seleniumhq.selenium:selenium-htmlunit-driver:2.44.0'
 
     console "org.grails:grails-console"
+
+    // mysql database setups
+    runtime 'mysql:mysql-connector-java:5.1.30'
 }
 
 task wrapper(type: Wrapper) {
