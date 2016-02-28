@@ -77,6 +77,7 @@ endpoints:
     jmx:
         unique-names: true
 
+# database connect setup
 dataSource:
     pooled: true
     jmxExport: true
@@ -90,6 +91,7 @@ dataSource:
 
 environments:
     development:
+# here is default development setup of grails project
 #        dataSource:
 #            dbCreate: none
 #            username: "jabue"
