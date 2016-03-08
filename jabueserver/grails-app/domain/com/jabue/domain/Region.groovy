@@ -1,4 +1,4 @@
-package com.ychefapp.domain
+package com.jabue.model
 
 class Region implements Serializable {
 

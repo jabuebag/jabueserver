@@ -1,4 +1,4 @@
-package com.ychefapp.domain
+package com.jabue.model
 
 class Image implements Serializable {
 

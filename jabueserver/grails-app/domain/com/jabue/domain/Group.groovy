@@ -1,4 +1,4 @@
-package com.ychefapp.domain
+package com.jabue.model
 
 class Group implements Serializable {
 
@@ -45,3 +45,4 @@ class Group implements Serializable {
         name
     }
 }
+

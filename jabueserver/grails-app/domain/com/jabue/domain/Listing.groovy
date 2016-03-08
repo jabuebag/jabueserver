@@ -1,4 +1,6 @@
-package com.ychefapp.domain
+package com.jabue.model
+
+import com.jabue.model.User
 
 class Listing implements Serializable {
 
