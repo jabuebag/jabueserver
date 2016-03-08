@@ -1,6 +1,6 @@
-package com.jabue.model
+package com.jabue.domain
 
-import com.jabue.model.User
+import com.jabue.domain.User
 
 class Listing implements Serializable {
 

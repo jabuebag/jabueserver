@@ -1,4 +1,4 @@
-package com.jabue.model
+package com.jabue.domain
 
 class Region implements Serializable {
 

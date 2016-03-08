@@ -1,4 +1,4 @@
-package com.jabue.model
+package com.jabue.domain
 
 class User implements Serializable {
 
@@ -13,6 +13,7 @@ class User implements Serializable {
     }
 
     String creationMethod = CreationMethod.NATIVE.toString()
+    String username
     String email
     String password
     Boolean autoPassword = false
@@ -64,6 +65,7 @@ class User implements Serializable {
 
     static constraints = {
         creationMethod nullable: true
+        username nullable: true
         email nullable: true
         password blank: false
         autoPassword blank: false
@@ -81,5 +83,6 @@ class User implements Serializable {
         pwdResetDate nullable: true
         pwdResetHash nullable: true
         gender nullable: true
+        group nullable: true
     }
 }

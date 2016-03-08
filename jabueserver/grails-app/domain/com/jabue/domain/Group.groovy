@@ -1,4 +1,4 @@
-package com.jabue.model
+package com.jabue.domain
 
 class Group implements Serializable {
 
